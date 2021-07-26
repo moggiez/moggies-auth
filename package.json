@@ -1,6 +1,10 @@
 {
-  "name": "moggies-auth",
+  "name": "@moggiez/moggies-auth",
   "version": "0.2.0",
+  "private": false,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@moggiez"
+  },
   "description": "Utility functions for AWS Lambdas with authorization.",
   "main": "index.js",
   "repository": {
