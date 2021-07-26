@@ -1,0 +1,38 @@
+{
+  "name": "moggies-auth",
+  "version": "0.2.0",
+  "description": "Utility functions for AWS Lambdas with authorization.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moggiez/moggies-auth.git"
+  },
+  "keywords": [
+    "moggies",
+    "moggiez",
+    "moggies.io"
+  ],
+  "author": "Georgi Stavrev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moggiez/moggies-auth/issues"
+  },
+  "homepage": "https://github.com/moggiez/moggies-auth#readme",
+  "devDependencies": {
+    "jest": "^27.0.5",
+    "prettier": "2.3.2"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "prettier --check .",
+    "format": "prettier --write ."
+  },
+  "jest": {
+    "testMatch": [
+      "<rootDir>/**/__tests__/*.test.js"
+    ],
+    "testPathIgnorePatterns": [
+      "__tests__/helpers.js"
+    ]
+  }
+}
